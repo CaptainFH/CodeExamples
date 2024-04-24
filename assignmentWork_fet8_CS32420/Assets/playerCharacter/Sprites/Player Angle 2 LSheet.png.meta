@@ -1,0 +1,567 @@
+fileFormatVersion: 2
+guid: 14cc602a0388ab645a21151a2745e4a2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3942120668017548933
+    second: Player Angle 2 LSheet_0
+  - first:
+      213: -3133283225545341552
+    second: Player Angle 2 LSheet_1
+  - first:
+      213: 3593128507048279404
+    second: Player Angle 2 LSheet_2
+  - first:
+      213: -6072528303583751275
+    second: Player Angle 2 LSheet_3
+  - first:
+      213: 5115826958823700680
+    second: Player Angle 2 LSheet_4
+  - first:
+      213: -8512173428714469946
+    second: Player Angle 2 LSheet_5
+  - first:
+      213: 3298727269742215872
+    second: Player Angle 2 LSheet_6
+  - first:
+      213: 1493198023682312015
+    second: Player Angle 2 LSheet_7
+  - first:
+      213: -4305191152678033989
+    second: Player Angle 2 LSheet_8
+  - first:
+      213: -3030340336588033084
+    second: Player Angle 2 LSheet_9
+  - first:
+      213: 7430317468314829745
+    second: Player Angle 2 LSheet_10
+  - first:
+      213: -7272025463749509355
+    second: Player Angle 2 LSheet_11
+  - first:
+      213: -4050963556446787893
+    second: Player Angle 2 LSheet_12
+  - first:
+      213: -4828442056035191656
+    second: Player Angle 2 LSheet_13
+  - first:
+      213: -2844073312070784712
+    second: Player Angle 2 LSheet_14
+  - first:
+      213: -2442276636523977209
+    second: Player Angle 2 LSheet_15
+  - first:
+      213: 1873387961255079526
+    second: Player Angle 2 LSheet_16
+  - first:
+      213: -6045404183515042412
+    second: Player Angle 2 LSheet_17
+  - first:
+      213: 3917253901171423555
+    second: Player Angle 2 LSheet_18
+  - first:
+      213: -9203536866886755714
+    second: Player Angle 2 LSheet_19
+  - first:
+      213: -1832111224470617221
+    second: Player Angle 2 LSheet_20
+  - first:
+      213: 2529212323718213999
+    second: Player Angle 2 LSheet_21
+  - first:
+      213: -655752201511408850
+    second: Player Angle 2 LSheet_22
+  - first:
+      213: -1160132422794780303
+    second: Player Angle 2 LSheet_23
+  - first:
+      213: 1175979609953537277
+    second: Player Angle 2 LSheet_24
+  - first:
+      213: 229729707851939314
+    second: Player Angle 2 LSheet_25
+  - first:
+      213: 5043523644109659752
+    second: Player Angle 2 LSheet_26
+  - first:
+      213: -381510714748588927
+    second: Player Angle 2 LSheet_27
+  - first:
+      213: -1810553428552306919
+    second: Player Angle 2 LSheet_28
+  - first:
+      213: 5885493932608467119
+    second: Player Angle 2 LSheet_29
+  - first:
+      213: 1254324206115091824
+    second: Player Angle 2 LSheet_30
+  - first:
+      213: -545000316038543552
+    second: Player Angle 2 LSheet_31
+  - first:
+      213: -7624835704163333126
+    second: Player Angle 2 LSheet_32
+  - first:
+      213: -8970864673977202002
+    second: Player Angle 2 LSheet_33
+  - first:
+      213: -7484753347289800340
+    second: Player Angle 2 LSheet_34
+  - first:
+      213: 6765429232231899992
+    second: Player Angle 2 LSheet_35
+  - first:
+      213: 930048346776480970
+    second: Player Angle 2 LSheet_36
+  - first:
+      213: -4038829246475210028
+    second: Player Angle 2 LSheet_37
+  - first:
+      213: 1554729648392636181
+    second: Player Angle 2 LSheet_38
+  - first:
+      213: -8933037883427861785
+    second: Player Angle 2 LSheet_39
+  - first:
+      213: 1702784549075154851
+    second: Player Angle 2 LSheet_40
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Player Angle 2 LSheet_0
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 179
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71a6118326ca49c0800000000000000
+      internalID: -3942120668017548933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Angle 2 LSheet_1
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 179
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0950ea8d1875484d0800000000000000
+      internalID: -3133283225545341552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Angle 2 LSheet_2
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 179
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d31f6075b5dd130800000000000000
+      internalID: 3593128507048279404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Angle 2 LSheet_3
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 179
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59392687eab0abba0800000000000000
+      internalID: -6072528303583751275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Angle 2 LSheet_4
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 179
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8bd05a3811ff640800000000000000
+      internalID: 5115826958823700680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Angle 2 LSheet_5
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 179
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c584f2bd5faed980800000000000000
+      internalID: -8512173428714469946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Angle 2 LSheet_6
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 135
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c201e379fe67cd20800000000000000
+      internalID: 3298727269742215872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Angle 2 LSheet_7
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 135
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4746e4f0b7e8b410800000000000000
+      internalID: 1493198023682312015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Angle 2 LSheet_8
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 135
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5a87ed473e044c0800000000000000
+      internalID: -4305191152678033989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Angle 2 LSheet_9
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 135
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3f121f48112f5d0800000000000000
+      internalID: -3030340336588033084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Angle 2 LSheet_10
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 135
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b30943be5acd1760800000000000000
+      internalID: 7430317468314829745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Angle 2 LSheet_11
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 135
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f7d9b9e53941b90800000000000000
+      internalID: -7272025463749509355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Angle 2 LSheet_12
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 135
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc6afebbb1618c7c0800000000000000
+      internalID: -4050963556446787893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Angle 2 LSheet_13
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 135
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 894377f388dedfcb0800000000000000
+      internalID: -4828442056035191656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Angle 2 LSheet_39
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 3
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eacc21df59770480800000000000000
+      internalID: -8933037883427861785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Angle 2 LSheet_40
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 3
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7f5a0968181a710800000000000000
+      internalID: 1702784549075154851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
