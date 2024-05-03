@@ -1,0 +1,41 @@
+@font-face {
+    src: url("BL______.ttf");
+}
+
+#pane{
+    -fx-background-color: "#48432A";
+    -fx-background-size: cover;
+    -fx-border-style: solid inside;
+    -fx-border-color: "#FFFF00";
+    -fx-border-width: 5px;
+}
+
+#title{
+    -fx-font-family: "balloon";
+    -fx-font-size: 60px;
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-text-alignment: center;
+}
+
+#option{
+    -fx-font-family: "";
+    -fx-font-size: 60px;
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-text-alignment: center;
+}
+
+.label{
+}
+.outline.label .text {
+    -fx-stroke: black;
+    -fx-stroke-width: 4px;
+    -fx-fill: black;
+}
+
+.button{
+    -fx-background-image: url("board.png");
+    -fx-background-size: cover;
+    -fx-background-color: transparent;
+}

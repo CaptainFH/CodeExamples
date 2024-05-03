@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+
+<AnchorPane fx:id="pane" prefHeight="660.0" prefWidth="660.0" stylesheets="@settingsStyle.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uk.ac.aber.cs221.gp05.buccaneergame.controllers.SettingsCtrl">
+    <VBox alignment="CENTER">
+        <padding><Insets top="10" left="30" right="30"/></padding>
+        <Label id="title" fx:id="title" alignment="CENTER" prefHeight="1080" prefWidth="1920" text="Settings">
+        </Label>
+        <GridPane id="InnerSet" fx:id="InnerSet" prefHeight="480" prefWidth="600" hgap="20" alignment="CENTER">
+            <Label id="option" fx:id="option" text="Accessibility Mode" GridPane.rowIndex="0" GridPane.columnIndex="0">
+            </Label>
+            <CheckBox id="ACmode" fx:id="ACmode" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+        </GridPane>
+        <GridPane alignment="CENTER" hgap="40">
+            <padding><Insets top="20"/></padding>
+            <Button id="backButton" fx:id="backButton" text="Back" alignment="CENTER" GridPane.rowIndex="0" GridPane.columnIndex="0" prefHeight="50" prefWidth="150"></Button>
+            <Button id="resetButton" fx:id="resetButton" text="Reset" alignment="CENTER" GridPane.rowIndex="0" GridPane.columnIndex="1" prefHeight="50" prefWidth="150"></Button>
+            <Button id="confirmButton" fx:id="confirmButton" text="Save" alignment="CENTER" GridPane.rowIndex="0" GridPane.columnIndex="2" prefHeight="50" prefWidth="150"></Button>
+        </GridPane>
+    </VBox>
+
+
+</AnchorPane>

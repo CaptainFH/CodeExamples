@@ -1,0 +1,102 @@
+@font-face {
+    src: url("BL______.ttf");
+}
+@font-face {
+    src: url("ahronbd.ttf");
+}
+
+#pane{
+    -fx-background-color: "#6D6440";
+    -fx-background-size: cover;
+    -fx-border-style: solid inside;
+    -fx-border-color: "#FFFF00";
+    -fx-border-width: 3px;
+}
+
+#gridcell{
+    -fx-background-color: transparent;
+    -fx-border-style: solid inside;
+    -fx-border-color: yellow;
+    -fx-border-width: 2px;
+}
+
+#title{
+    -fx-font-family: "balloon";
+    -fx-font-size: 60px;
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-text-alignment: center;
+}
+
+#subtitle{
+    -fx-font-family: "balloon";
+    -fx-font-size: 30px;
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-text-alignment: center;
+}
+#subtitleSmall{
+    -fx-font-family: "balloon";
+    -fx-font-size: 25px;
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-text-alignment: center;
+}
+
+#text{
+    -fx-font-family: "Aharoni";
+    -fx-font-size: 15px;
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-text-alignment: center;
+}
+
+#totalDigitPlayer{
+    -fx-font-family: "Aharoni";
+    -fx-font-size: 35px;
+    -fx-text-fill: limeGreen;
+    -fx-background-color: transparent;
+    -fx-text-alignment: center;
+}
+
+#totalDigitPort{
+    -fx-font-family: "Aharoni";
+    -fx-font-size: 35px;
+    -fx-text-fill: limeGreen;
+    -fx-background-color: transparent;
+    -fx-text-alignment: center;
+}
+
+#toggleBox{
+    -fx-background-color: transparent;
+}
+
+#toggleBox:selected{
+    -fx-border-style: solid inside;
+    -fx-border-color: yellow;
+    -fx-border-width: 2px;
+}
+
+#confirmButton{
+    -fx-font-family: "Aharoni";
+    -fx-border-style: solid outside;
+    -fx-border-color: "#FFFF00";
+    -fx-border-width: 3px;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-alignment: CENTER;
+
+    -fx-background-color: "00B050";
+}
+
+#invis{
+    -fx-background-colour: transparent;
+}
+
+.label{
+}
+.outline.label .text {
+    -fx-stroke: black;
+    -fx-stroke-width: 4px;
+    -fx-fill: black;
+}

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="300" prefWidth="500" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uk.ac.aber.cs221.gp05.buccaneergame.controllers.AttackingCtrl">
+   <children>
+      <BorderPane prefHeight="300.0" prefWidth="500.0" style="-fx-border-color: &quot;#FFFF00&quot;; -fx-background-color: &quot;#6D6440&quot;;" AnchorPane.topAnchor="0.0">
+         <top>
+            <Text fx:id="victorResult" fill="WHITE" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Battle!" textAlignment="CENTER" BorderPane.alignment="CENTER">
+               <font>
+                  <Font size="43.0" />
+               </font>
+            </Text>
+         </top>
+         <right>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <bottom>
+                  <Text fx:id="rightPlayerName" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Player Name" BorderPane.alignment="CENTER">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+               </bottom>
+               <center>
+                  <ImageView fx:id="rightPlayerShip" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+                     <image>
+                        <Image url="@../assets/selectPlayerView/boat_default_big.png" />
+                     </image>
+                  </ImageView>
+               </center>
+            </BorderPane>
+         </right>
+         <left>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <bottom>
+                  <Text fx:id="leftPlayerName" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Player Name" textAlignment="CENTER" BorderPane.alignment="CENTER">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+               </bottom>
+               <center>
+                  <ImageView fx:id="leftShip" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+                     <image>
+                        <Image url="@../assets/selectPlayerView/boat_default_big.png" />
+                     </image>
+                  </ImageView>
+               </center>
+               <top>
+                  <Button fx:id="takeLootButt" mnemonicParsing="false" onAction="#closeWindow" style="-fx-background-color: #2f8900;" text="Accept" textFill="WHITE" BorderPane.alignment="CENTER">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+               </top>
+            </BorderPane>
+         </left>
+         <center>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <center>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+                     <image>
+                        <Image url="@../assets/menuElements/Arrow.png" />
+                     </image>
+                  </ImageView>
+               </center>
+               <bottom>
+                  <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <Label fx:id="leftPlayerCrew" alignment="BOTTOM_CENTER" text="7" textFill="WHITE">
+                           <font>
+                              <Font size="50.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../assets/menuElements/VS.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="rightPlayerCrew" text="1" textAlignment="RIGHT" textFill="WHITE">
+                           <font>
+                              <Font size="50.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+               </bottom>
+            </BorderPane>
+         </center>
+         <padding>
+            <Insets bottom="20.0" />
+         </padding>
+      </BorderPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,18 @@
+@font-face {
+	src: url('BL______.ttf');
+}
+#title{
+    -fx-font-family:"balloon";
+}
+#nameBox{
+    -fx-font-family:"balloon";
+}
+#goButton {
+    -fx-font-family:"balloon";
+}
+#backButton{
+    -fx-font-family:"balloon";
+}
+#startButton{
+    -fx-font-family:"balloon";
+}

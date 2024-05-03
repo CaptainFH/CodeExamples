@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+
+<AnchorPane fx:id="pane" prefHeight="660.0" prefWidth="660.0" stylesheets="@hoverStyle.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gp05.buccaneergame.prototypes.hovermenu.hoverController">
+    <padding><Insets top="40" /></padding>
+    <Label id="title" fx:id="title" alignment="CENTER" prefHeight="80.0" prefWidth="660.0" text="Flat Island">
+        <font>
+            <Font name="Balloon" size="12.0" />
+        </font>
+    </Label>
+
+    <Line endX="670.0" endY="80" opacity="1" startX="0" startY="80" stroke="#FFFF00" strokeLineCap="BUTT" strokeWidth="2.0" />
+
+    <GridPane layoutY="65.0" prefHeight="290.0" prefWidth="660.0" hgap="20" vgap="10">
+        <padding><Insets bottom="25" left="30" right="30" top="25" /></padding>
+
+        <ImageView id="card00" fitHeight="80" fitWidth="50" GridPane.columnIndex="0" GridPane.rowIndex="0">
+            <image>
+                <Image url="@card_1_black.png"/>
+            </image>
+        </ImageView>
+        <ImageView id="card01" fitHeight="80" fitWidth="50" GridPane.columnIndex="1" GridPane.rowIndex="0">
+            <image>
+                <Image url="@card_1_black.png"/>
+            </image>
+        </ImageView>
+        <ImageView id="card02" fitHeight="80" fitWidth="50" GridPane.columnIndex="2" GridPane.rowIndex="0">
+            <image>
+                <Image url="@card_2_black.png"/>
+            </image>
+        </ImageView>
+        <ImageView id="card03" fitHeight="80" fitWidth="50" GridPane.columnIndex="3" GridPane.rowIndex="0">
+            <image>
+                <Image url="@card_2_black.png"/>
+            </image>
+        </ImageView>
+        <ImageView id="card04" fitHeight="80" fitWidth="50" GridPane.columnIndex="4" GridPane.rowIndex="0">
+            <image>
+                <Image url="@card_3_black.png"/>
+            </image>
+        </ImageView>
+        <ImageView id="card05" fitHeight="80" fitWidth="50" GridPane.columnIndex="5" GridPane.rowIndex="0">
+            <image>
+                <Image url="@card_3_black.png"/>
+            </image>
+        </ImageView>
+        <ImageView id="card06" fitHeight="80" fitWidth="50" GridPane.columnIndex="6" GridPane.rowIndex="0">
+            <image>
+                <Image url="@card_1_red.png"/>
+            </image>
+        </ImageView>
+        <ImageView id="card07" fitHeight="80" fitWidth="50" GridPane.columnIndex="7" GridPane.rowIndex="0">
+            <image>
+                <Image url="@card_1_red.png"/>
+            </image>
+        </ImageView>
+
+
+        <ImageView id="card10" fitHeight="80" fitWidth="50" GridPane.columnIndex="0" GridPane.rowIndex="1">
+            <image>
+                <Image url="@card_2_red.png"/>
+            </image>
+        </ImageView>
+        <ImageView id="card11" fitHeight="80" fitWidth="50" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <image>
+                <Image url="@card_2_red.png"/>
+            </image>
+        </ImageView>
+        <ImageView id="card12" fitHeight="80" fitWidth="50" GridPane.columnIndex="2" GridPane.rowIndex="1">
+            <image>
+                <Image url="@card_3_red.png"/>
+            </image>
+        </ImageView>
+        <ImageView id="card13" fitHeight="80" fitWidth="50" GridPane.columnIndex="3" GridPane.rowIndex="1">
+            <image>
+                <Image url="@card_3_red.png"/>
+            </image>
+        </ImageView>
+        <ImageView id="card14" fitHeight="80" fitWidth="50" GridPane.columnIndex="4" GridPane.rowIndex="1">
+        </ImageView>
+        <ImageView id="card15" fitHeight="80" fitWidth="50" GridPane.columnIndex="5" GridPane.rowIndex="1">
+        </ImageView>
+        <ImageView id="card16" fitHeight="80" fitWidth="50" GridPane.columnIndex="6" GridPane.rowIndex="1">
+        </ImageView>
+        <ImageView id="card17" fitHeight="80" fitWidth="50" GridPane.columnIndex="7" GridPane.rowIndex="1">
+        </ImageView>
+
+
+        <ImageView id="card20" fitHeight="80" fitWidth="50" GridPane.columnIndex="0" GridPane.rowIndex="2">
+        </ImageView>
+        <ImageView id="card21" fitHeight="80" fitWidth="50" GridPane.columnIndex="1" GridPane.rowIndex="2">
+        </ImageView>
+        <ImageView id="card22" fitHeight="80" fitWidth="50" GridPane.columnIndex="2" GridPane.rowIndex="2">
+        </ImageView>
+        <ImageView id="card23" fitHeight="80" fitWidth="50" GridPane.columnIndex="3" GridPane.rowIndex="2">
+        </ImageView>
+        <ImageView id="card24" fitHeight="80" fitWidth="50" GridPane.columnIndex="4" GridPane.rowIndex="2">
+        </ImageView>
+        <ImageView id="card25" fitHeight="80" fitWidth="50" GridPane.columnIndex="5" GridPane.rowIndex="2">
+        </ImageView>
+        <ImageView id="card26" fitHeight="80" fitWidth="50" GridPane.columnIndex="6" GridPane.rowIndex="2">
+        </ImageView>
+        <ImageView id="card27" fitHeight="80" fitWidth="50" GridPane.columnIndex="7" GridPane.rowIndex="2">
+        </ImageView>
+    </GridPane>
+
+    <Line startX="0" endX="670.0" opacity="1" startY="370" endY="370" stroke="#FFFF00" strokeLineCap="BUTT" strokeWidth="2.0" />
+
+    <GridPane layoutY="370.0" prefHeight="290.0" prefWidth="660.0" hgap="20" vgap="10">
+        <padding><Insets bottom="25" left="25" right="25" top="25" /></padding>
+
+        <ImageView id="treasure00" fitHeight="60" fitWidth="100" GridPane.columnIndex="0" GridPane.rowIndex="0">
+            <image>
+                <Image url="@gold_big.png"/>
+            </image>
+        </ImageView>
+        <ImageView id="treasure01" fitHeight="60" fitWidth="100" GridPane.columnIndex="1" GridPane.rowIndex="0">
+            <image>
+                <Image url="@diamond_big.png"/>
+            </image>
+        </ImageView>
+        <ImageView id="treasure02" fitHeight="60" fitWidth="100" GridPane.columnIndex="2" GridPane.rowIndex="0">
+            <image>
+                <Image url="@diamond_big.png"/>
+            </image>
+        </ImageView>
+        <ImageView id="treasure03" fitHeight="60" fitWidth="100" GridPane.columnIndex="3" GridPane.rowIndex="0">
+            <image>
+                <Image url="@rum_big.png"/>
+            </image>
+        </ImageView>
+        <ImageView id="treasure04" fitHeight="60" fitWidth="100" GridPane.columnIndex="4" GridPane.rowIndex="0">
+            <image>
+                <Image url="@rum_big.png"/>
+            </image>
+        </ImageView>
+
+        <ImageView id="treasure10" fitHeight="60" fitWidth="100" GridPane.columnIndex="0" GridPane.rowIndex="1">
+            <image>
+                <Image url="@ruby_big.png"/>
+            </image>
+        </ImageView>
+        <ImageView id="treasure21" fitHeight="60" fitWidth="100" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <image>
+                <Image url="@pearl_big.png"/>
+            </image>
+        </ImageView>
+        <ImageView id="treasure32" fitHeight="60" fitWidth="100" GridPane.columnIndex="2" GridPane.rowIndex="1">
+        </ImageView>
+        <ImageView id="treasure43" fitHeight="60" fitWidth="100" GridPane.columnIndex="3" GridPane.rowIndex="1">
+        </ImageView>
+        <ImageView id="treasure54" fitHeight="60" fitWidth="100" GridPane.columnIndex="4" GridPane.rowIndex="1">
+        </ImageView>
+    </GridPane>
+</AnchorPane>

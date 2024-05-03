@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="uk.ac.aber.cs221.gp05.buccaneergame.controllers.ChanceCardCtrl"
+            prefHeight="800.0" prefWidth="500.0"
+            stylesheets="@ChanceCardStyle.css"
+            id="pane">
+    <VBox alignment="CENTER" prefHeight="800.0" prefWidth="500.0">
+        <Label id="title" text="CHANCE" prefHeight="100.0" prefWidth="500.0" alignment="CENTER"/>
+        <Label id="contentLabel" fx:id="contentLabel" text="Ipsum Lorem" prefHeight="400.0" prefWidth="500.0" wrapText="true"
+               alignment="CENTER"/>
+        <Button fx:id="close" id="close" text="Close" onAction="#closeWindowActionT" prefHeight="100.0" prefWidth="200.0" alignment="CENTER"/>
+        <Button fx:id="treasureButton" id="close" text="Take Treasure" onAction="#closeWindowActionT" prefHeight="100.0" prefWidth="200.0" alignment="CENTER"/>
+        <Button fx:id="cardButton" id="close" text="Take Cards" onAction="#closeWindowActionC" prefHeight="100.0" prefWidth="200.0" alignment="CENTER"/>
+    </VBox>
+</AnchorPane>

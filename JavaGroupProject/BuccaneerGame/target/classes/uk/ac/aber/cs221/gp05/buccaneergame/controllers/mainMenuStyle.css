@@ -1,0 +1,73 @@
+@font-face {
+    src: url("BL______.ttf");
+}
+@font-face {
+    src: url("ahronbd.ttf");
+}
+
+.title{
+    -fx-font-family: "balloon";
+    -fx-font-size: 60px;
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-text-alignment: center;
+}
+
+#subtitle{
+    -fx-font-family: "balloon";
+    -fx-font-size: 30px;
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-text-alignment: center;
+}
+
+#text{
+    -fx-font-family: "Aharoni";
+    -fx-font-size: 15px;
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-text-alignment: center;
+}
+
+#totalDigit{
+    -fx-font-family: "Aharoni";
+    -fx-font-size: 35px;
+    -fx-text-fill: limeGreen;
+    -fx-background-color: transparent;
+    -fx-text-alignment: center;
+}
+
+#ACmode{
+    -fx-background-color: "#6D6440";
+    -fx-border-style: solid outside;
+    -fx-border-color: "#FFFF00";
+    -fx-border-width: 3px;
+}
+
+#ACmode .box{
+    -fx-background-color: "#6D6440";
+}
+
+#ACmode:selected .mark{
+    -fx-background-color: "#FFFFFF";
+}
+
+.menuButton{
+    -fx-background-image: url("../assets/mainMenu/Plank.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+
+    -fx-font-family: "balloon";
+    -fx-font-size: 60px;
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-text-alignment: center;
+}
+
+.label{
+}
+.outline.label .text {
+    -fx-stroke: black;
+    -fx-stroke-width: 4px;
+    -fx-fill: black;
+}

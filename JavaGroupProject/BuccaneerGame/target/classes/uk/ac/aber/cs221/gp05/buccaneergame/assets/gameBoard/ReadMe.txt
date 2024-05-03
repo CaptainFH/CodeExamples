@@ -1,0 +1,1 @@
+Each "Big" treasure is exactly 4x the size of the relevant "Small" treasure

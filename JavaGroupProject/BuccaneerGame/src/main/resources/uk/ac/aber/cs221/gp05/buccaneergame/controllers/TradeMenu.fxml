@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="pane"
+            prefHeight="800.0" prefWidth="1000.0"
+            stylesheets="@tradeStyle.css"
+            xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="uk.ac.aber.cs221.gp05.buccaneergame.controllers.TradingCtrl">
+   <children>
+
+      <Label id="title" prefHeight="50.0" prefWidth="1000.0" text="Trade!" alignment="CENTER">
+      </Label>
+
+      <GridPane id="gridpane" alignment="CENTER" layoutX="50.0" layoutY="20" prefHeight="700" prefWidth="600">
+
+         <children>
+
+            <Pane id="gridcell" prefHeight="50.0" prefWidth="300.0" GridPane.columnIndex="0">
+               <children>
+                  <Label id="subtitle" fx:id="playerOne" alignment="CENTER" contentDisplay="CENTER" prefHeight="50.0" prefWidth="300.0" text="Player 1" textAlignment="CENTER" />
+               </children>
+            </Pane>
+
+            <Pane id="gridcell" prefHeight="50" prefWidth="300" GridPane.columnIndex="1">
+               <children>
+                  <Label id="subtitle" fx:id="playerTwo" alignment="CENTER" contentDisplay="CENTER" prefHeight="50.0" prefWidth="300.0" text="Player 2" textAlignment="CENTER" />
+               </children>
+            </Pane>
+
+
+
+            <GridPane id="gridcell" fx:id="playerCardGrid" prefHeight="200" prefWidth="300" GridPane.columnIndex="0" GridPane.rowIndex="1">
+
+               <ToggleButton id="toggleBox" fx:id="playercard00" prefHeight="55" prefWidth="30" GridPane.columnIndex="0" GridPane.rowIndex="0" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="playercard01" prefHeight="55" prefWidth="30" GridPane.columnIndex="1" GridPane.rowIndex="0" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="playercard02" prefHeight="55" prefWidth="30" GridPane.columnIndex="2" GridPane.rowIndex="0" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="playercard03" prefHeight="55" prefWidth="30" GridPane.columnIndex="3" GridPane.rowIndex="0" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="playercard04" prefHeight="55" prefWidth="30" GridPane.columnIndex="4" GridPane.rowIndex="0" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="playercard05" prefHeight="55" prefWidth="30" GridPane.columnIndex="5" GridPane.rowIndex="0" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="playercard06" prefHeight="55" prefWidth="30" GridPane.columnIndex="6" GridPane.rowIndex="0" onAction="#updateClicked"/>
+
+               <ToggleButton id="toggleBox" fx:id="playercard10" prefHeight="55" prefWidth="30" GridPane.columnIndex="0" GridPane.rowIndex="1" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="playercard11" prefHeight="55" prefWidth="30" GridPane.columnIndex="1" GridPane.rowIndex="1" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="playercard12" prefHeight="55" prefWidth="30" GridPane.columnIndex="2" GridPane.rowIndex="1" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="playercard13" prefHeight="55" prefWidth="30" GridPane.columnIndex="3" GridPane.rowIndex="1" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="playercard14" prefHeight="55" prefWidth="30" GridPane.columnIndex="4" GridPane.rowIndex="1" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="playercard15" prefHeight="55" prefWidth="30" GridPane.columnIndex="5" GridPane.rowIndex="1" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="playercard16" prefHeight="55" prefWidth="30" GridPane.columnIndex="6" GridPane.rowIndex="1" onAction="#updateClicked"/>
+
+               <ToggleButton id="toggleBox" fx:id="playercard20" prefHeight="55" prefWidth="30" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+               <ToggleButton id="toggleBox" fx:id="playercard21" prefHeight="55" prefWidth="30" GridPane.columnIndex="1" GridPane.rowIndex="2" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="playercard22" prefHeight="55" prefWidth="30" GridPane.columnIndex="2" GridPane.rowIndex="2" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="playercard23" prefHeight="55" prefWidth="30" GridPane.columnIndex="3" GridPane.rowIndex="2" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="playercard24" prefHeight="55" prefWidth="30" GridPane.columnIndex="4" GridPane.rowIndex="2" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="playercard25" prefHeight="55" prefWidth="30" GridPane.columnIndex="5" GridPane.rowIndex="2" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="playercard26" prefHeight="55" prefWidth="30" GridPane.columnIndex="6" GridPane.rowIndex="2" onAction="#updateClicked"/>
+
+            </GridPane>
+
+            <GridPane id="gridcell" fx:id="playerTreasureGrid" prefHeight="200" prefWidth="300" GridPane.columnIndex="0" GridPane.rowIndex="2">
+
+               <ToggleButton id="toggleBox" fx:id="playertreasure00" maxHeight="55" maxWidth="30" GridPane.columnIndex="0" GridPane.rowIndex="0" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="playertreasure01" maxHeight="55" maxWidth="30" GridPane.columnIndex="1" GridPane.rowIndex="0" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="playertreasure02" maxHeight="55" maxWidth="30" GridPane.columnIndex="2" GridPane.rowIndex="0" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="playertreasure03" maxHeight="55" maxWidth="30" GridPane.columnIndex="3" GridPane.rowIndex="0" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="playertreasure04" maxHeight="55" maxWidth="30" GridPane.columnIndex="4" GridPane.rowIndex="0" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="playertreasure05" maxHeight="55" maxWidth="30" GridPane.columnIndex="5" GridPane.rowIndex="0" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="playertreasure06" maxHeight="55" maxWidth="30" GridPane.columnIndex="6" GridPane.rowIndex="0" onAction="#updateClicked"/>
+
+               <ToggleButton id="toggleBox" fx:id="playertreasure10" maxHeight="55" maxWidth="30" GridPane.columnIndex="0" GridPane.rowIndex="1" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="playertreasure11" maxHeight="55" maxWidth="30" GridPane.columnIndex="1" GridPane.rowIndex="1" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="playertreasure12" maxHeight="55" maxWidth="30" GridPane.columnIndex="2" GridPane.rowIndex="1" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="playertreasure13" maxHeight="55" maxWidth="30" GridPane.columnIndex="3" GridPane.rowIndex="1" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="playertreasure14" maxHeight="55" maxWidth="30" GridPane.columnIndex="4" GridPane.rowIndex="1" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="playertreasure15" maxHeight="55" maxWidth="30" GridPane.columnIndex="5" GridPane.rowIndex="1" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="playertreasure16" maxHeight="55" maxWidth="30" GridPane.columnIndex="6" GridPane.rowIndex="1" onAction="#updateClicked"/>
+
+               <ToggleButton id="toggleBox" fx:id="playertreasure20" maxHeight="55" maxWidth="30" GridPane.columnIndex="0" GridPane.rowIndex="2" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="playertreasure21" maxHeight="55" maxWidth="30" GridPane.columnIndex="1" GridPane.rowIndex="2" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="playertreasure22" maxHeight="55" maxWidth="30" GridPane.columnIndex="2" GridPane.rowIndex="2" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="playertreasure23" maxHeight="55" maxWidth="30" GridPane.columnIndex="3" GridPane.rowIndex="2" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="playertreasure24" maxHeight="55" maxWidth="30" GridPane.columnIndex="4" GridPane.rowIndex="2" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="playertreasure25" maxHeight="55" maxWidth="30" GridPane.columnIndex="5" GridPane.rowIndex="2" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="playertreasure26" maxHeight="55" maxWidth="30" GridPane.columnIndex="6" GridPane.rowIndex="2" onAction="#updateClicked"/>
+
+            </GridPane>
+
+            <GridPane id="gridcell" fx:id="portCardGrid" prefHeight="200" prefWidth="300" GridPane.columnIndex="1" GridPane.rowIndex="1">
+
+               <ToggleButton id="toggleBox" fx:id="portcard00" prefHeight="55" prefWidth="30" GridPane.columnIndex="0" GridPane.rowIndex="0" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="portcard01" prefHeight="55" prefWidth="30" GridPane.columnIndex="1" GridPane.rowIndex="0" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="portcard02" prefHeight="55" prefWidth="30" GridPane.columnIndex="2" GridPane.rowIndex="0" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="portcard03" prefHeight="55" prefWidth="30" GridPane.columnIndex="3" GridPane.rowIndex="0" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="portcard04" prefHeight="55" prefWidth="30" GridPane.columnIndex="4" GridPane.rowIndex="0" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="portcard05" prefHeight="55" prefWidth="30" GridPane.columnIndex="5" GridPane.rowIndex="0" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="portcard06" prefHeight="55" prefWidth="30" GridPane.columnIndex="6" GridPane.rowIndex="0" onAction="#updateClicked"/>
+
+               <ToggleButton id="toggleBox" fx:id="portcard10" prefHeight="55" prefWidth="30" GridPane.columnIndex="0" GridPane.rowIndex="1" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="portcard11" prefHeight="55" prefWidth="30" GridPane.columnIndex="1" GridPane.rowIndex="1" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="portcard12" prefHeight="55" prefWidth="30" GridPane.columnIndex="2" GridPane.rowIndex="1" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="portcard13" prefHeight="55" prefWidth="30" GridPane.columnIndex="3" GridPane.rowIndex="1" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="portcard14" prefHeight="55" prefWidth="30" GridPane.columnIndex="4" GridPane.rowIndex="1" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="portcard15" prefHeight="55" prefWidth="30" GridPane.columnIndex="5" GridPane.rowIndex="1" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="portcard16" prefHeight="55" prefWidth="30" GridPane.columnIndex="6" GridPane.rowIndex="1" onAction="#updateClicked"/>
+
+               <ToggleButton id="toggleBox" fx:id="portcard20" prefHeight="55" prefWidth="30" GridPane.columnIndex="0" GridPane.rowIndex="2" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="portcard21" prefHeight="55" prefWidth="30" GridPane.columnIndex="1" GridPane.rowIndex="2" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="portcard22" prefHeight="55" prefWidth="30" GridPane.columnIndex="2" GridPane.rowIndex="2" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="portcard23" prefHeight="55" prefWidth="30" GridPane.columnIndex="3" GridPane.rowIndex="2" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="portcard24" prefHeight="55" prefWidth="30" GridPane.columnIndex="4" GridPane.rowIndex="2" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="portcard25" prefHeight="55" prefWidth="30" GridPane.columnIndex="5" GridPane.rowIndex="2" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="portcard26" prefHeight="55" prefWidth="30" GridPane.columnIndex="6" GridPane.rowIndex="2" onAction="#updateClicked"/>
+
+            </GridPane>
+
+            <GridPane id="gridcell" fx:id="portTreasureGrid" prefHeight="200" prefWidth="300" GridPane.columnIndex="1" GridPane.rowIndex="2">
+
+               <ToggleButton id="toggleBox" fx:id="porttreasure00" maxHeight="55" maxWidth="30" GridPane.columnIndex="0" GridPane.rowIndex="0" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="porttreasure01" maxHeight="55" maxWidth="30" GridPane.columnIndex="1" GridPane.rowIndex="0" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="porttreasure02" maxHeight="55" maxWidth="30" GridPane.columnIndex="2" GridPane.rowIndex="0" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="porttreasure03" maxHeight="55" maxWidth="30" GridPane.columnIndex="3" GridPane.rowIndex="0" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="porttreasure04" maxHeight="55" maxWidth="30" GridPane.columnIndex="4" GridPane.rowIndex="0" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="porttreasure05" maxHeight="55" maxWidth="30" GridPane.columnIndex="5" GridPane.rowIndex="0" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="porttreasure06" maxHeight="55" maxWidth="30" GridPane.columnIndex="6" GridPane.rowIndex="0" onAction="#updateClicked"/>
+
+               <ToggleButton id="toggleBox" fx:id="porttreasure10" maxHeight="55" maxWidth="30" GridPane.columnIndex="0" GridPane.rowIndex="1" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="porttreasure11" maxHeight="55" maxWidth="30" GridPane.columnIndex="1" GridPane.rowIndex="1" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="porttreasure12" maxHeight="55" maxWidth="30" GridPane.columnIndex="2" GridPane.rowIndex="1" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="porttreasure13" maxHeight="55" maxWidth="30" GridPane.columnIndex="3" GridPane.rowIndex="1" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="porttreasure14" maxHeight="55" maxWidth="30" GridPane.columnIndex="4" GridPane.rowIndex="1" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="porttreasure15" maxHeight="55" maxWidth="30" GridPane.columnIndex="5" GridPane.rowIndex="1" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="porttreasure16" maxHeight="55" maxWidth="30" GridPane.columnIndex="6" GridPane.rowIndex="1" onAction="#updateClicked"/>
+
+               <ToggleButton id="toggleBox" fx:id="porttreasure20" maxHeight="55" maxWidth="30" GridPane.columnIndex="0" GridPane.rowIndex="2" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="porttreasure21" maxHeight="55" maxWidth="30" GridPane.columnIndex="1" GridPane.rowIndex="2" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="porttreasure22" maxHeight="55" maxWidth="30" GridPane.columnIndex="2" GridPane.rowIndex="2" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="porttreasure23" maxHeight="55" maxWidth="30" GridPane.columnIndex="3" GridPane.rowIndex="2" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="porttreasure24" maxHeight="55" maxWidth="30" GridPane.columnIndex="4" GridPane.rowIndex="2" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="porttreasure25" maxHeight="55" maxWidth="30" GridPane.columnIndex="5" GridPane.rowIndex="2" onAction="#updateClicked"/>
+               <ToggleButton id="toggleBox" fx:id="porttreasure26" maxHeight="55" maxWidth="30" GridPane.columnIndex="6" GridPane.rowIndex="2" onAction="#updateClicked"/>
+
+            </GridPane>
+
+
+
+            <HBox id="gridcell" prefHeight="50.0" prefWidth="300.0" GridPane.rowIndex="3">
+               <children>
+                  <Label id="subtitle" alignment="BOTTOM_CENTER" contentDisplay="CENTER" prefHeight="50" prefWidth="150.0" text="Total: " />
+                  <Label fx:id="totalDigitPlayer" id="subtitleSmall" alignment="CENTER" contentDisplay="RIGHT" prefHeight="50" prefWidth="15.0" text="0" textAlignment="CENTER"/>
+               </children>
+            </HBox>
+
+            <HBox id="gridcell" prefHeight="50.0" prefWidth="300.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <children>
+                  <Label id="subtitle" alignment="BOTTOM_CENTER" contentDisplay="CENTER" prefHeight="50" prefWidth="150.0" text="Total: " />
+                  <Label fx:id="totalDigitPort" id="subtitleSmall" alignment="CENTER" contentDisplay="RIGHT" prefHeight="50" prefWidth="150.0" text="0" textAlignment="CENTER"/>
+               </children>
+            </HBox>
+
+         </children>
+      </GridPane>
+
+
+      <Label id="subtitle" layoutX="750.0" layoutY="100.0" prefHeight="50" prefWidth="200" text="Values" alignment="CENTER"/>
+
+      <GridPane id="treasureValues" layoutX="750" layoutY="170" prefHeight="300" prefWidth="200">
+
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="10.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="10.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="10.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="10.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="10.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+
+         <children>
+
+            <Pane id="gridcell" GridPane.columnIndex="1">
+               <children>
+                  <Label id="subtitle" alignment="CENTER" prefHeight="60" prefWidth="100" text="= 5" textAlignment="CENTER" />
+               </children>
+            </Pane>
+
+            <Pane id="gridcell" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <children>
+                  <Label id="subtitle" alignment="CENTER" prefHeight="60" prefWidth="100" text="= 5" textAlignment="CENTER" />
+               </children>
+            </Pane>
+
+            <Pane id="gridcell" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <children>
+                  <Label id="subtitle" alignment="CENTER" prefHeight="60" prefWidth="100" text="= 4" textAlignment="CENTER" />
+               </children>
+            </Pane>
+
+            <Pane id="gridcell" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <children>
+                  <Label id="subtitle" alignment="CENTER" prefHeight="60" prefWidth="100" text="= 3" textAlignment="CENTER" />
+               </children>
+            </Pane>
+
+            <Pane id="gridcell" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <children>
+                  <Label id="subtitle" alignment="CENTER" prefHeight="60" prefWidth="100" text="= 2" textAlignment="CENTER" />
+               </children>
+            </Pane>
+
+            <Pane id="gridcell" prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <ImageView fx:id="diamond" fitHeight="50" layoutX="5" layoutY="5" pickOnBounds="true" preserveRatio="true"></ImageView>
+               </children>
+            </Pane>
+
+            <Pane id="gridcell" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
+               <children>
+                  <ImageView fx:id="ruby" fitHeight="50" layoutX="5" layoutY="5" pickOnBounds="true" preserveRatio="true"></ImageView>
+               </children>
+            </Pane>
+
+            <Pane id="gridcell" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2">
+               <children>
+                  <ImageView fx:id="gold" fitHeight="40" layoutX="5" layoutY="5" pickOnBounds="true" preserveRatio="true"></ImageView>
+               </children>
+            </Pane>
+
+            <Pane id="gridcell" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="3">
+               <children>
+                  <ImageView fx:id="pearl" fitHeight="50" layoutX="5" layoutY="5" pickOnBounds="true" preserveRatio="true"></ImageView>
+               </children>
+            </Pane>
+
+            <Pane id="gridcell" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="4">
+               <children>
+                  <ImageView fx:id="rum" fitHeight="50" layoutX="5" layoutY="5" pickOnBounds="true" preserveRatio="true"></ImageView>
+               </children>
+            </Pane>
+
+         </children>
+      </GridPane>
+   </children>
+
+   <Button id="confirmButton" fx:id="confirmButton" onAction="#closeWindowAction" layoutY="720" layoutX="450" prefHeight="50.0" prefWidth="100.0" text="Trade" alignment="BOTTOM_CENTER"/>
+</AnchorPane>

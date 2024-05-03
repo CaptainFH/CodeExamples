@@ -1,0 +1,50 @@
+#pane{
+    -fx-background-color: blue;
+    -fx-background-size: cover;
+    -fx-background-radius: 25;
+    -fx-border-radius: 10;
+    -fx-border-style: solid inside;
+    -fx-border-color: "#FFFF00";
+    -fx-border-width: 20px;
+}
+
+#title{
+    -fx-font-family: "balloon";
+    -fx-font-size: 60px;
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-text-alignment: center;
+}
+
+#InnerSet{
+    -fx-background-color: "#48432A";
+    -fx-background-size: cover;
+    -fx-border-style: solid inside;
+    -fx-border-color: "#FFFF00";
+    -fx-border-width: 5px;
+}
+
+#contentLabel{
+    -fx-font-family: "Aharoni";
+    -fx-font-size: 30px;
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-text-alignment: center;
+}
+
+#close{
+    -fx-font-family: "Aharoni";
+    -fx-border-style: solid outside;
+    -fx-border-color: "#FFFF00";
+    -fx-border-width: 3px;
+    -fx-text-fill: white;
+    -fx-font-size: 30px;
+
+    -fx-background-color: "00B050";
+}
+
+#close:disabled{
+    -fx-border-style: transparent;
+    -fx-text-fill: transparent;
+    -fx-background-fill: transparent;
+}

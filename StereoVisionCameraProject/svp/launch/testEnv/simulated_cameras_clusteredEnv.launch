@@ -1,0 +1,10 @@
+<launch>
+		<env name="GAZEBO_MODEL_PATH"
+		value="$(find svp)/models:$(optenv GAZEBO_MODEL_PATH)" />
+		<node pkg="tf2_ros" type="static_transform_publisher" name="link1_broadcaster" args="0 0 0 0 0 0 1 world world_base" />
+		<node pkg="tf2_ros" type="static_transform_publisher" name="box_broadcaster" args="1 -0.5 2 0 0 0 1 world_base box" />
+		<node pkg="tf2_ros" type="static_transform_publisher" name="box2_broadcaster" args="1 0.5 2 0 0 0 1 world_base box2" />
+    <include file="$(find gazebo_ros)/launch/empty_world.launch">
+		<arg name="world_name" value="$(find svp)/worlds/testEnv/straight_cameras_clusteredEnv.world"/>
+	</include>
+</launch>
